@@ -1,0 +1,22 @@
+{
+  "name": "shopfast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+"scripts": {
+  "dev": "node --watch --env-file=.env src/server.js",
+  "start": "node --env-file=.env src/server.js",
+  "test": "node --test"
+},
+"engines": { 
+  "node": ">=20" 
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.12.7",
+    "fastify-plugin": "^6.0.1"
+  }
+}
