@@ -9,3 +9,6 @@ curl -X POST localhost:3000/api/orders -H "content-type: application/json" -d '{
 curl -X POST localhost:3000/api/payments -H "content-type: application/json" -d '{"orderId":"0b254352-7a54-40a5-b6a5-52eee7db3bd1","token":"tok_ok"}'
 
 curl -X PUT localhost:3000/api/inventory/p1 -H "content-type: application/json" -d '{"quantity":100}'
+
+
+git remote add origin https://github.com/raonatesh89/shopfast.git
